@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /dhakatribune/testcodedeploy
+hooks:
+ AfterInstall:
+    - location: scripts/pm2.sh
+      runas: root
+
