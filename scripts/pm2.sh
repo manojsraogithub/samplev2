@@ -1,5 +1,3 @@
 #!/bin/bash
-sudo su -
-cd /dhakatribune/testcodedeploy/
-pm2 start app.js
+pm2 start /dhaka/testgitpull/app.js
 
