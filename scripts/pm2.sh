@@ -2,4 +2,4 @@
 sudo su -
 cd /dhakatribune/testcodedeploy/
 pm2 start app.js
-exit 0
+
