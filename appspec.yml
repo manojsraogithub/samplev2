@@ -4,6 +4,9 @@ files:
   - source: /
     destination: /dhakatribune/testcodedeploy
 hooks:
+ BeforeInstall:
+   - location: scripts/source.sh
+     runas: root
  AfterInstall:
     - location: scripts/pm2.sh
       runas: root
